@@ -1,0 +1,70 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch TreeTraversals",
+      "request": "launch",
+      "mainClass": "TreeTraversals",
+      "projectName": "BinaryTree.java_81aa88f9"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "BinaryTree.java_81aa88f9"
+    },
+    {
+      "type": "java",
+      "name": "Launch BinaryTree",
+      "request": "launch",
+      "mainClass": "BinaryTree",
+      "projectName": "linkList.java_d369c240"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "linkList.java_d369c240"
+    },
+    {
+      "type": "java",
+      "name": "Launch arrayList",
+      "request": "launch",
+      "mainClass": "arrayList",
+      "projectName": "linkList.java_d369c240"
+    },
+    {
+      "type": "java",
+      "name": "Launch StackClass",
+      "request": "launch",
+      "mainClass": "StackClass",
+      "projectName": "linkList.java_d369c240"
+    },
+    {
+      "type": "java",
+      "name": "Launch Stack",
+      "request": "launch",
+      "mainClass": "Stack",
+      "projectName": "linkList.java_d369c240"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch LL",
+      "request": "launch",
+      "mainClass": "LL",
+      "projectName": "linkList.java_d369c240"
+    }
+  ]
+}
