@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch LinkList",
+      "request": "launch",
+      "mainClass": "LinkList",
+      "projectName": "BinaryTree.java_81aa88f9"
+    },
+    {
+      "type": "java",
+      "name": "Launch LinkedList",
+      "request": "launch",
+      "mainClass": "LinkedList",
+      "projectName": "BinaryTree.java_81aa88f9"
+    },
+    {
+      "type": "java",
       "name": "Launch TreeTraversals",
       "request": "launch",
       "mainClass": "TreeTraversals",

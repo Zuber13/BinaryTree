@@ -18,8 +18,6 @@ class TreeTraversals{
       preOrder(rootNode.right);
     }
   }
-
-
     
   public static void inOrder(Node rootNode){
     if(rootNode != null){
@@ -46,6 +44,35 @@ class TreeTraversals{
       if(temp.left != null) queue.add(temp.left);
       if(temp.right != null) queue.add(temp.right);
     }
+  }
+
+  // level order traversals
+
+  public void levelOrder(){
+    Queue<Node> queue = new LinkedList<>();
+    queue.add(root);
+
+    while(!queue.isEmpty()){
+      Node temp = queue.poll();
+      if(temp != null){
+        System.out.print(temp.data+" ");
+         if(temp.left != null){
+           queue.add(temp.left);
+         }
+
+         if(temp.right != null) {
+           queue.add(temp.right);
+         }
+      }
+      else{
+        System.out.println();
+        if(!queue.isEmpty()){
+          queue.add(null); 
+        }
+      }
+    }
+
+
   }
 
 
@@ -92,11 +119,14 @@ class TreeTraversals{
 
     }
 
-    System.out.println();
+    // System.out.println();
     // tree.printTree();
     // tree.inOrder(root);
     // System.out.println("inOrder");
-    tree.postOrder(root);
+    // tree.postOrder(root);
     // System.out.println("postOrder");
+    System.out.println();
+    System.out.println("current tree");
+    tree.levelOrder();
   }
 }
